@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+#out {
+    padding-top: 50px;
+    color: green;
+}
+
+.btn {
+    padding: 20px;
+    line-height: 20px;
+    font-size: xx-large;
+    color: whitesmoke;
+}
