@@ -50,6 +50,7 @@ const funcListener = function() {
 // main listener function
 const listener = function() {
     numberBtnlistener();
+    funcListener();
 }
 
 export default listener;
