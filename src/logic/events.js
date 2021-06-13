@@ -3,6 +3,7 @@ import {
     three, four, five,
     six, seven, eight,
     nine,
+    clearOutput
 } from "../utils/button_handler.js";
 
 const numberBtnlistener = function () {
@@ -40,6 +41,10 @@ const numberBtnlistener = function () {
     eightBtn.addEventListener('click', () => { eight() });
 
     nineBtn.addEventListener('click', () => { nine() });
+}
+
+const funcListener = function() {
+    clearBtn.addEventListener('click', () => { clearOutput() });
 }
 
 // main listener function
