@@ -54,8 +54,6 @@ const divide = function() {
 const clearOutput = function() {
     let output = document.getElementById('out');
     output.innerText = '0'
-    memory = '';
-    disk = memory;
 }
 
 // handle = button
