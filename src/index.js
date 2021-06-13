@@ -1,11 +1,9 @@
 'use strict';
-import App from "./components/App.js";
-import Memory from "./logic/memory.js";
+import Render from "./utils/Render.js";
+import listener from "./logic/events.js";
 
-(function() {
-    $(document).ready(function () {
-        $(App()).appendTo('#app');
-        
-    });
+(function () {
+    Render();
+    listener(); // listen for events
 })();
 

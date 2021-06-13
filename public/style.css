@@ -3,9 +3,44 @@ body {
     background-color: rgba(0, 0, 0, 0.911);
 }
 
+#app {
+    width: 100%;
+}
+
+#calc-console {
+    background-color: black;
+    height: 100%;
+}
+
+#history {
+    margin-top: 25px;
+}
+
 #out {
     padding-top: 50px;
+    padding-bottom: 25px;
     color: green;
+}
+
+#mem-out {
+    padding-top: 10px;
+}
+
+#x-out {
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+#equals, #decimal {
+    background-color: rgb(104, 16, 104);
+}
+
+#equals:hover, #decimal:hover {
+    background-color: rgb(184, 34, 184);
+}
+
+#top-menu {
+    width: 100%;
 }
 
 .btn {
@@ -13,4 +48,42 @@ body {
     line-height: 20px;
     font-size: xx-large;
     color: whitesmoke;
+    border: 2px solid black;
 }
+
+.operation-btn {
+    background-color: rgb(104, 42, 42);
+}
+
+.operation-btn:hover {
+    background-color: rgb(80, 8, 8);
+}
+
+.func, .extra {
+    color: black;
+}
+
+.extra {
+    background-color: rgb(168, 117, 41);
+}
+
+.func {
+    background-color:rgba(109, 57, 99, 0.911);
+}
+
+.func:hover {
+    background-color: rgb(55, 128, 128);
+}
+
+.extra:hover {
+    background-color: rgb(6, 58, 58);
+}
+
+.variable-btn {
+    background-color: rgb(60, 62, 95);
+}
+
+.variable-btn:hover {
+    background-color: rgb(26, 25, 25);
+}
+

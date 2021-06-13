@@ -1,4 +1,4 @@
-import inputIsValid from "./error_handler.js";
+import inputIsValid from "../utils/error_handler.js";
 
 const evaluate = function(expression) {
     return !inputIsValid(expression) ? 
