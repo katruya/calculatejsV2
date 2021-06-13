@@ -3,6 +3,7 @@ import {
     three, four, five,
     six, seven, eight,
     nine,
+    equal,
     clearOutput
 } from "../utils/button_handler.js";
 
@@ -41,6 +42,11 @@ const numberBtnlistener = function () {
     nineBtn.addEventListener('click', () => { nine() });
 }
 
+const equalListener = function() {
+    let equalBtn = document.getElementById('equals');
+    equalBtn.addEventListener('click', () => { equal() });
+}
+
 const funcListener = function() {
     let clearBtn = document.getElementById('clear');
     clearBtn.addEventListener('click', () => { clearOutput() });
@@ -49,6 +55,7 @@ const funcListener = function() {
 // main listener function
 const listener = function() {
     numberBtnlistener();
+    equalListener();
     funcListener();
 }
 

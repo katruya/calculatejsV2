@@ -54,11 +54,22 @@ const divide = function() {
 const clearOutput = function() {
     let output = document.getElementById('out');
     output.innerText = '0';
+    console.log('Output cleared.');
 }
 
 // handle = button
 const equal = function() {
-    
+    let output = document.getElementById('out');
+    let history = document.getElementById('history');
+
+    let result = evaluate(memory).toString();
+    history.innerHTML += `
+        <div class="row">
+            <h3 class="text-info">(${disk}=${result})</h3>
+        </div>
+    `;
+
+    clearOutput();
 }
 
 // handle . button
@@ -120,5 +131,6 @@ export {
     three, four, five,
     six, seven, eight,
     nine,
+    equal,
     clearOutput
 };
