@@ -28,8 +28,8 @@ const init = function(symbol, rawHtml) {
     console.log('button pressed');
 }
 
-// clears the screen
-const clear = function() {
+// clears even the history
+const clearAll = function() {
     
 }
 
@@ -52,7 +52,8 @@ const divide = function() {
 
 // handle clear button
 const clearOutput = function() {
-    
+    let output = document.getElementById('out');
+    output.innerText = '0';
 }
 
 // handle = button
