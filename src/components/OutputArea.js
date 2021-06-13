@@ -9,8 +9,15 @@ const OutputArea = function() {
         <div id="mem-out" class="col text-primary">
             <h3>[MEM: ]</h3>
         </div>
-        <div id="x-out" class="row">
-            <h4>X = </h4>
+        <div class="row">
+            <div class="col">
+                <h4 id="x-out">X = </h4>
+            </div>
+            <div class="col">
+                <h4 id="y-out">Y = </h4>
+            </div>
+            <div class="col">
+                <h4 id="z-out">Z = </h4>
         </div>
     `;
 }
