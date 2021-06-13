@@ -120,4 +120,5 @@ export {
     three, four, five,
     six, seven, eight,
     nine,
+    clearOutput
 };
