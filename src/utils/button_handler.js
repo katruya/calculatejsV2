@@ -53,7 +53,7 @@ const divide = function() {
 // handle clear button
 const clearOutput = function() {
     let output = document.getElementById('out');
-    output.innerText = '0'
+    output.innerText = '0';
 }
 
 // handle = button
