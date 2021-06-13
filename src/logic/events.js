@@ -19,8 +19,6 @@ const numberBtnlistener = function () {
     let eightBtn = document.getElementById('eight');
     let nineBtn = document.getElementById('nine');
 
-    let clearBtn = document.getElementById('clear');
-
     // number button events
     zeroBtn.addEventListener('click', () => { zero() });
 
@@ -44,6 +42,7 @@ const numberBtnlistener = function () {
 }
 
 const funcListener = function() {
+    let clearBtn = document.getElementById('clear');
     clearBtn.addEventListener('click', () => { clearOutput() });
 }
 
